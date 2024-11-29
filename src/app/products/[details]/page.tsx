@@ -12,7 +12,7 @@ import { formatToNairaCurrency } from '@/components/reusable/formartCurrency'
 import EmptyState from '@/components/reusable/EmptyState'
 
 
-const ProductDetail: GetStaticProps = ({params}) => {
+const ProductDetail = ({params}:any) => {
   const productId = params?.details
   const [isAdd, setIsAdd] = useState(false)
   const [count, setCount] = useState(0)

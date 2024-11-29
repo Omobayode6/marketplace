@@ -13,7 +13,7 @@ export interface ProductProps {
   category: string;
   img: string;
   oldPrice: number;
-  [key: string]: any;
+  totalPrice: number;
 }
 
 // Array of sellers
